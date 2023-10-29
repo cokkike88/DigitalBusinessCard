@@ -1,0 +1,148 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: black;
+  display: flex;
+  justify-content: center;
+}
+
+.container {  
+  display: flex;  
+  align-items: center;
+  flex-direction: column;
+  width: 550px;  
+  height: 868px;
+  background: #23252C;    
+}
+
+.picture {
+  width: 317px;
+  height: 317px;
+  background: url(./assets/businessCardImg.png) no-repeat -225px -150px;
+  /* background-position: -225px -150px;   */
+  border-radius: 10px 10px 0px 0px;
+  margin-top: 44px;
+}
+
+.information {  
+  background: #1A1B21;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  width: 317px;
+  height: 399px;  
+}
+
+.name {
+  margin-top: 21px;
+  color: #FFF;
+  font-family: 'Inter', sans-serif;
+  font-size: 25px;
+  font-weight: 700;  
+  line-height: normal;
+}
+
+.job {
+  color: #F3BF99;
+  font-family: 'Inter';
+  font-size: 12.8px;
+  font-weight: 400;  
+}
+
+.webSite {
+  color: #F5F5F5;
+  font-family: 'Inter';
+  font-size: 10.24px;
+  font-weight: 400;
+  line-height: 250%;
+}
+
+.buttons {
+  width: 247px;
+  display: flex;
+  justify-content: space-between;
+  height: 34px;
+  margin-top: 15px;
+}
+
+.email {
+  width: 115px;  
+  padding: 9px 13px 9px 11px;
+  border-radius: 6px;
+  background: var(--white, #FFF);
+  box-shadow: 0px 1px 2px 0px rgba(0, 0, 0, 0.05);
+}
+
+.buttonContent {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 8px;
+}
+
+.buttonText {
+  line-height: 16px;
+  font-family: 'Inter';
+  font-weight: 500;
+  font-size: 14px;
+}
+
+.linkedIn {
+  width: 115px;
+  padding: 9px 13px 9px 11px;
+  border-radius: 6px;
+  background: #5093E2;
+  box-shadow: 0px 1px 2px 0px rgba(0, 0, 0, 0.05);
+}
+
+.linkedinText {
+  color: #FFF;
+}
+
+.about {
+  margin-top: 20px;
+  width: 247px;
+  /* height: 21px; */
+  color: #F5F5F5;
+  font-family: 'Inter';
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 200%;
+}
+
+.contents {
+  width: 247px;
+  color: #DCDCDC;
+  font-family: 'Inter';
+  font-size: 10.24px;
+  line-height: 150%;
+}
+
+.interests {
+  margin-top: 15px;
+  width: 247px;
+  /* height: 21px; */
+  color: #F5F5F5;
+  font-family: 'Inter';
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 200%;
+}
+
+.socialMedia {
+  width: 317px;
+  height: 64px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 24px;
+  background: #161619;
+  border-radius: 0px 0px 10px 10px;
+}
+
+.socialMediaIcon {
+  width: 25px;
+  height: 25px;
+}
